@@ -164,6 +164,15 @@ body {
   .navbar-menu .dropdown-submenu.active .dropdown-menu {
       display: block;
   }
+}
+  .navbar-menu .dropdown-submenu .dropdown-menu {
+      position: static;
+      display: none;
+      padding-left: 20px;
+  }
+  .navbar-menu .dropdown-submenu.active .dropdown-menu {
+      display: block;
+  }
   .navbar-logo {
       margin-left: 0;
   }
