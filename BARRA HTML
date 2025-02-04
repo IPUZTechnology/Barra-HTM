@@ -1,0 +1,105 @@
+</head>
+<body>
+<nav class="navbar">
+  <div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="navbar-logo">
+    <img id="logo" src="https://ripuz-logos.bitrix24.site/upload/landing/ca1/gwfxawussoroglz1lv7lm5vzj0puc2nz/ripuz_logo_white_title_1x.png" alt="Ripuz Logo">
+  </div>
+  <ul class="navbar-menu">
+    <li class="dropdown">
+      <a href="https://ripuz-new-web.bitrix24.site/#yosoutuayuda" onclick="toggleDropdown(event)"><span data-key="nosotros">NOSOTROS</span></a>
+      <ul class="dropdown-menu">
+          <li><a href="https://ripuz-new-web.bitrix24.site/#quienes-somos" onclick="collapseMenu()"><i class="fas fa-user-friends"></i> <span data-key="quienes-somos">¿Quiénes somos?</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/#mision" onclick="collapseMenu()"><i class="fas fa-bullseye"></i> <span data-key="mision-vision">Nuestra misión y visión</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/#Valores" onclick="collapseMenu()"><i class="fas fa-lightbulb"></i> <span data-key="valores">Nuestros valores</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/#referencias" onclick="collapseMenu()"><i class="fas fa-building"></i> <span data-key="referencias">¡Quiénes han creído en nosotros!</span></a></li>
+      </ul>
+  </li>
+  <li class="dropdown">
+      <a href="https://ripuz-new-web.bitrix24.site/Servicios/transformacion-digital/" onclick="toggleDropdown(event)"><span data-key="servicios">SERVICIOS</span></a>
+      <ul class="dropdown-menu">
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/transformacion-digital/" onclick="collapseMenu()"><i class="fas fa-digital-tachograph"></i> <span data-key="transformacion-digital">Consultoría en transformación digital</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/homemychange/" onclick="collapseMenu()"><i class="fas fa-chalkboard-teacher"></i> <span data-key="coaching">Coaching empresarial y gestión del cambio</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/AutomationAi/" onclick="collapseMenu()"><i class="fas fa-robot"></i> <span data-key="automatizacion">Diseño y automatización de procesos con AI</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/agile/" onclick="collapseMenu()"><i class="fas fa-running"></i> <span data-key="agile">Metodologías ágiles</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/helpdesk/" onclick="collapseMenu()"><i class="fas fa-headset"></i> <span data-key="helpdesk">Mesa de ayuda</span></a></li>
+      </ul>
+  </li>
+  <li class="dropdown">
+    <a href="#" onclick="toggleDropdown(event)"><span data-key="productos">PRODUCTOS</span></a>
+    <ul class="dropdown-menu">
+        <li class="dropdown-submenu">
+            <a href="#" onclick="toggleSubmenu(event)">
+                <img src="https://ripuz-logos.bitrix24.site/upload/landing/165/na98o3zeq9dx7ytvqm51l2izr6j693kh/favicon_web_ripuz.png" alt="Convertalk Bot AI" class="emoji-icon">
+                <span data-key="convertalk">Convertalk Bot AI</span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="https://ripuz-new-web.bitrix24.site/Servicios/Bots-AI/" onclick="collapseMenu(event)">
+                        <img src="https://ripuz-logos.bitrix24.site/upload/landing/165/na98o3zeq9dx7ytvqm51l2izr6j693kh/favicon_web_ripuz.png" alt="Convertalk Bot AI" class="emoji-icon">
+                        <span data-key="descubra">Descubra el Bot Convertalk</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ripuz-new-web.bitrix24.site/Servicios/Conector-whatsapp/" onclick="collapseMenu(event)">
+                        <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                        <span data-key="whatsapp">Conector WhatsApp</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ripuz-new-web.bitrix24.site/Servicios/Conector-meta/" onclick="collapseMenu(event)">
+                        <i class="fab fa-facebook" style="color: #1877F2;"></i>
+                        <span data-key="facebook">Conector Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ripuz-new-web.bitrix24.site/Servicios/conector-instagram/" onclick="collapseMenu(event)">
+                        <i class="fab fa-instagram" style="color: #E4405F;"></i>
+                        <span data-key="instagram">Conector Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown-submenu">
+            <a href="#" onclick="toggleSubmenu(event)">
+                <i class="fas fa-network-wired"></i>
+                <span data-key="crm-omnicanal">Bitrix24 CRM Omnicanal</span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/" onclick="collapseMenu(event)"><i class="fas fa-info-circle"></i> <span data-key="saber-mas">Saber más de Bitrix24</span></a></li>
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/#areas-empresariales" onclick="collapseMenu(event)"><i class="fas fa-briefcase"></i> <span data-key="areas-empresariales">Casos de uso por áreas empresariales</span></a></li>
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/#empresas" onclick="collapseMenu(event)"><i class="fas fa-building"></i> <span data-key="empresa">Según tamaño de tu empresa</span></a></li>
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/#agile" onclick="collapseMenu(event)"><i class="fas fa-running"></i> <span data-key="agile-metodologias">Para implementar metodologías ágiles</span></a></li>
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/#industrias" onclick="collapseMenu(event)"><i class="fas fa-industry"></i> <span data-key="industrias">Casos de uso por industria</span></a></li>
+                <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/crm-omnicanal/#partner-innovador" onclick="collapseMenu(event)"><i class="fas fa-handshake"></i> <span data-key="partner-innovador">Ventajas de trabajar con RIPUZ implementando Bitrix24</span></a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://ripuz-new-web.bitrix24.site/Servicios/Converatalk-telefonia/" onclick="collapseMenu(event)">
+                <i class="fas fa-phone"></i>
+                <span data-key="telefonia">Telefonía Voz IP</span>
+            </a>
+        </li>
+    </ul>
+</li>
+  <li class="dropdown">
+      <a href="https://ripuz.bitrix24.com/~8nZld" onclick="toggleDropdown(event)"><span data-key="contactenos">CONTÁCTENOS</span></a>
+      <ul class="dropdown-menu">
+          <li><a href="https://ripuz.bitrix24.com/~8nZld" target="_blank" onclick="collapseMenu()"><i class="fas fa-calendar-alt"></i> <span data-key="agendar-demo">Agendar un Demo</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/trabajeconnosostros/" onclick="collapseMenu()"><img src="https://sat02pap002files.storage.live.com/y4mZo1XjIVmQ7VkRxT4e4MScnsSaLIXECh6HydFHdqNbsugUfU2JUsdb3G3jddjO8AhSNt3nva_ndwuTmN4lI2YchcauX83nb_zdmEojcAf5TIooY9frLJhUxyUCIqsWco2kAFNvWxs5QSb0fzVjyyiIrTEPkRvR8llNtGmjlMT8JzZYTLaBTdSCkVX4qm3-WU8xmExoD4c4DF1GI0Om2OE-MbtruYkmRx7g9jm7cjv8uA?encodeFailures=1&width=150&height=137" alt="Trabaja con Nosotros" class="emoji-icon" style="height: 14px;"> <span data-key="trabaja-con-nosotros">Trabaja con Nosotros</span></a></li>
+          <li><a href="https://ripuz-new-web.bitrix24.site/Servicios/habeasdata/" onclick="collapseMenu()"><i class="fas fa-lock"></i> <span data-key="habeas-data">Habeas Data</span></a></li>
+      </ul>
+  </li>
+</ul>
+  <div class="navbar-language">
+    <select id="language-select">
+      <option value="es" data-icon="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg">Español</option>
+      <option value="en" data-icon="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg">English</option>
+      <option value="pt" data-icon="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg">Português</option>
+    </select>
+  </div>
+</nav>
