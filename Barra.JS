@@ -41,19 +41,18 @@ function toggleSubmenu(event) {
 }
 
 function collapseMenu(event) {
-  var menus = document.querySelectorAll('.navbar-menu, .dropdown-menu');
-  menus.forEach(function(menu) {
-    menu.classList.remove('active');
-    menu.style.display = 'none'; // Ocultar el menú
-  });
-  if (event) {
-    var link = event.target.closest('a');
-    if (link) {
-      window.location.href = link.href;
+    var menus = document.querySelectorAll('.navbar-menu, .dropdown-menu');
+    menus.forEach(function(menu) {
+        menu.classList.remove('active');
+        menu.style.display = 'none'; // Ocultar el menú
+    });
+    if (event) {
+        var link = event.target.closest('a');
+        if (link) {
+            window.location.href = link.href;
+        }
     }
-  }
 }
-
 const translations = {
     es: {
         nosotros: "NOSOTROS",
